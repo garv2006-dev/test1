@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import NewProject from './component/NewProject'
-import ProjectSidebar from './component/ProjectSidebar'
 import NoprojctSelected from './component/NoprojctSelected'
 import SelectedProject from './component/SelectedProject'
+import ProjectSidebar from './component/projectSidebar'
 
 function App() {
   const [showNewProject, setShowNewProject] = useState({
